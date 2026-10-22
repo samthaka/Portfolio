@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="26.07.0">
+<page number="1" position="absolute" top="0" left="0" height="1836" width="1188">
+	<fontspec id="0" size="29" family="AAAAAA+Roboto" color="#0077b5"/>
+	<fontspec id="1" size="20" family="BAAAAA+Roboto" color="#333333"/>
+	<fontspec id="2" size="17" family="CAAAAA+Roboto" color="#0077b5"/>
+	<fontspec id="3" size="17" family="CAAAAA+Roboto" color="#333333"/>
+	<fontspec id="4" size="26" family="DAAAAA+Roboto" color="#333333"/>
+	<fontspec id="5" size="19" family="CAAAAA+Roboto" color="#333333"/>
+	<fontspec id="6" size="17" family="EAAAAA+Roboto" color="#0077b5"/>
+	<fontspec id="7" size="18" family="CAAAAA+Roboto" color="#333333"/>
+	<fontspec id="8" size="18" family="FAAAAA+Roboto" color="#333333"/>
+<text top="144" left="116" width="460" height="38" font="0"><b>SAMUEL KIRANGI THAKA</b></text>
+<text top="219" left="116" width="528" height="26" font="1"><b>Full-Stack Developer | ICT Support Technician | IT Helpdesk</b></text>
+<text top="262" left="122" width="193" height="22" font="2"><a href="mailto:samuelthaka9@gmail.com">samuelthaka9@gmail.com</a></text>
+<text top="262" left="330" width="157" height="22" font="3">| +254790341425 |</text>
+<text top="262" left="502" width="111" height="22" font="2"><a href="https://www.linkedin.com/in/samuel-thaka-b505b7284/">LinkedIn Profile</a></text>
+<text top="262" left="628" width="4" height="22" font="3">|</text>
+<text top="262" left="648" width="100" height="22" font="2"><a href="https://github.com/samthaka">GitHub Profile</a></text>
+<text top="314" left="116" width="276" height="34" font="4"><b>Professional Summary</b></text>
+<text top="379" left="116" width="887" height="24" font="5">Full-Stack software developer and entry-level IT support professional with hands-on experience supporting staff</text>
+<text top="409" left="116" width="933" height="24" font="5">workstations, peripherals, Windows software, and day-to-day technical operations. Skilled in first-line troubleshooting,</text>
+<text top="437" left="116" width="870" height="24" font="5">software deployment, system maintenance, and user support, with full-stack development capabilities across</text>
+<text top="466" left="116" width="918" height="24" font="5">responsive frontends, backend services, REST APIs, and database-backed applications. Brings a customer-focused,</text>
+<text top="494" left="116" width="703" height="24" font="5">problem-solving approach to building software and supporting reliable office operations.</text>
+<text top="549" left="116" width="190" height="34" font="4"><b>Technical Skills</b></text>
+<text top="609" left="116" width="179" height="22" font="6"><b>Frontend Development:</b></text>
+<text top="638" left="116" width="461" height="23" font="7">React, Angular, TypeScript, Next.js, JavaScript , HTML5, CSS3</text>
+<text top="677" left="116" width="127" height="22" font="6"><b>Backend &amp; APIs:</b></text>
+<text top="705" left="116" width="366" height="23" font="7">Python,Django, FastAPI, Flask, DjangoREST APIs</text>
+<text top="746" left="116" width="197" height="22" font="6"><b>Data &amp; Backend Services:</b></text>
+<text top="774" left="116" width="292" height="23" font="7">PostgreSQL, MySQL, MongoDB, SQLite</text>
+<text top="813" left="116" width="151" height="22" font="6"><b>Operating Systems:</b></text>
+<text top="843" left="116" width="456" height="23" font="7">Windows 10/11 installation, deployment, driver updates, and</text>
+<text top="870" left="116" width="357" height="23" font="7">maintenance; basic Linux system management</text>
+<text top="909" left="116" width="185" height="22" font="6"><b>Network &amp; Connectivity:</b></text>
+<text top="938" left="116" width="385" height="23" font="7">Basic TCP/IP, Wi-Fi profile configuration, LAN/WAN</text>
+<text top="965" left="116" width="395" height="23" font="7">troubleshooting, and basic router/switch verification</text>
+<text top="1005" left="116" width="189" height="22" font="6"><b>Software &amp; Applications:</b></text>
+<text top="1033" left="116" width="412" height="23" font="7">Microsoft Office Suite / Office 365, Google Workspace,</text>
+<text top="1061" left="116" width="322" height="23" font="7">software deployment, and system updates</text>
+<text top="609" left="600" width="163" height="22" font="6"><b>Mobile Development:</b></text>
+<text top="638" left="600" width="140" height="23" font="7">React Native, Java</text>
+<text top="677" left="600" width="267" height="22" font="6"><b>Data Analysis &amp; Machine Learning:</b></text>
+<text top="705" left="600" width="441" height="23" font="7">TensorFlow, PyTorch,Pandas, NumPy, Scikit-learn, OpenCV</text>
+<text top="746" left="600" width="274" height="22" font="6"><b>Development Tools &amp; Collaboration:</b></text>
+<text top="774" left="600" width="273" height="23" font="7">Git, GitHub, Docker, Postman, Figma</text>
+<text top="813" left="600" width="186" height="22" font="6"><b>Hardware &amp; Peripherals:</b></text>
+<text top="843" left="600" width="443" height="23" font="7">Computer assembly, workstation configuration, printer and</text>
+<text top="870" left="600" width="397" height="23" font="7">peripheral setup, component diagnostics, equipment</text>
+<text top="897" left="600" width="333" height="23" font="7">maintenance, and replacement coordination</text>
+<text top="937" left="600" width="206" height="22" font="6"><b>Technical Support &amp; Tools:</b></text>
+<text top="965" left="600" width="449" height="23" font="7">Remote desktop support (Microsoft Teams, AnyDesk/RDP),</text>
+<text top="992" left="600" width="432" height="23" font="7">ticketing systems and documentation, and system health</text>
+<text top="1019" left="600" width="88" height="23" font="7">inspections</text>
+<text top="1060" left="600" width="240" height="22" font="6"><b>Customer Service &amp; Soft Skills:</b></text>
+<text top="1088" left="600" width="461" height="23" font="7">Helpdesk support, user onboarding and orientation, technical</text>
+<text top="1115" left="600" width="462" height="23" font="7">communication for non-technical users, problem-solving, and</text>
+<text top="1143" left="600" width="139" height="23" font="7">time management</text>
+<text top="1196" left="116" width="246" height="34" font="4"><b>Relevant Experience</b></text>
+<text top="1256" left="131" width="410" height="26" font="1"><b>ICT Department Intern / IT Support Technician</b></text>
+<text top="1306" left="131" width="153" height="24" font="8"><b>Trail My Car (TMC)</b></text>
+<text top="1305" left="284" width="398" height="24" font="5"> — Thika Branch, Kenya | May 2025 – August 2025</text>
+<text top="1351" left="154" width="865" height="23" font="7">Developed Python automation tools using Playwright to scrape vehicle and client data from external platforms and</text>
+<text top="1378" left="154" width="351" height="23" font="7">normalize it for internal verification workflows.</text>
+<text top="1412" left="154" width="879" height="23" font="7">Built Flask-based backend services with SQLite and performed data validation using Pandas and NumPy to compare</text>
+<text top="1439" left="154" width="369" height="23" font="7">records across systems and detect mismatches.</text>
+<text top="1472" left="154" width="873" height="23" font="7">Delivered a packaged Windows application for staff use, automating renewal checks, reconciliation, and operational</text>
+<text top="1500" left="154" width="74" height="23" font="7">reporting.</text>
+<text top="1532" left="154" width="906" height="23" font="7">Provided first-line technical support to internal staff, resolving workstation, peripheral, operating system, and application</text>
+<text top="1559" left="154" width="367" height="23" font="7">issues to support uninterrupted daily operations.</text>
+<text top="1593" left="154" width="895" height="23" font="7">Packaged, deployed, configured, and maintained custom Windows desktop software and utility packages across office</text>
+<text top="1620" left="154" width="346" height="23" font="7">workstations for staff operational verification.</text>
+<text top="1653" left="154" width="856" height="23" font="7">Performed regular hardware and software checks, driver and operating system updates, and network connectivity</text>
+<text top="1681" left="154" width="124" height="23" font="7">troubleshooting.</text>
+<text top="1713" left="154" width="903" height="23" font="7">Maintained accurate logs of system issues, resolutions, and operational verification data using structured spreadsheets</text>
+<text top="1740" left="154" width="194" height="23" font="7">and documentation tools.</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1836" width="1188">
+	<fontspec id="9" size="17" family="CAAAAA+Roboto" color="#666666"/>
+<text top="45" left="154" width="794" height="23" font="7">Assisted non-technical users with system setup, software navigation, and basic IT operational guidelines.</text>
+<text top="78" left="154" width="833" height="23" font="7">Inspected client and staff hardware, supported peripheral setups, and coordinated equipment troubleshooting.</text>
+<text top="131" left="116" width="283" height="34" font="4"><b>Projects &amp; Applications</b></text>
+<text top="191" left="131" width="619" height="26" font="1"><b>Decentralized Refugee Identity Management System (Python/Django)</b></text>
+<text top="227" left="154" width="916" height="23" font="7">Architected a secure identity verification workflow using Django integrated with IPFS for similar data storage and retrieval</text>
+<text top="254" left="154" width="477" height="23" font="7">patterns that support trust, traceability, and retrieval of records.</text>
+<text top="288" left="154" width="886" height="23" font="7">Designed the system to support verification history and secure record management across organizational workflows.</text>
+<text top="321" left="154" width="902" height="23" font="7">Developed supporting system tooling and interfaces to improve operational tracking and management of sensitive data</text>
+<text top="348" left="154" width="83" height="23" font="7">workflows.</text>
+<text top="395" left="131" width="669" height="26" font="1"><b>CRPAS - Climate Resilient Precision Agriculture System (AI/Deep Learning)</b></text>
+<text top="431" left="154" width="909" height="23" font="7">Designed and developed an AI-powered agricultural prediction and recommendation system focused on climate-resilient</text>
+<text top="458" left="154" width="255" height="23" font="7">farming and precision agriculture.</text>
+<text top="491" left="154" width="853" height="23" font="7">Built and trained deep learning models using TensorFlow and Python to interpret climate and agricultural data for</text>
+<text top="519" left="154" width="210" height="23" font="7">predictive decision support.</text>
+<text top="551" left="154" width="889" height="23" font="7">Integrated forecasting and analytical workflows to improve recommendation quality and operational understanding of</text>
+<text top="578" left="154" width="140" height="23" font="7">field-level insights.</text>
+<text top="626" left="131" width="667" height="26" font="1"><b>Productivity Monitoring and Task Optimization System (ML/Deep Learning)</b></text>
+<text top="662" left="154" width="846" height="23" font="7">Developed an AI-powered productivity system combining computer vision, machine learning, NLP, and intelligent</text>
+<text top="689" left="154" width="283" height="23" font="7">scheduling into a desktop application</text>
+<text top="722" left="154" width="878" height="23" font="7">Built a real-time computer-vision pipeline using OpenCV, MediaPipe, DeepFace, and InsightFace to analyze facial and</text>
+<text top="749" left="154" width="563" height="23" font="7">behavioral cues including head pose, eye gaze, blink rate, and expressions.</text>
+<text top="782" left="154" width="918" height="23" font="7">Implemented productivity scoring and insight generation using focus metrics, fatigue indicators, break recommendations,</text>
+<text top="809" left="154" width="208" height="23" font="7">and personalized feedback.</text>
+<text top="843" left="154" width="840" height="23" font="7">Developed an intelligent scheduling component incorporating NLP-based task processing, ML prioritization and</text>
+<text top="870" left="154" width="323" height="23" font="7">reinforcement-learning-based optimization</text>
+<text top="922" left="116" width="120" height="34" font="4"><b>Education</b></text>
+<text top="983" left="116" width="133" height="26" font="1"><b>Kisii University</b></text>
+<text top="1032" left="116" width="438" height="24" font="5">Bachelor of Science in Computer Science (Fourth Year)</text>
+<text top="1078" left="116" width="194" height="22" font="9">Expected Graduation: 2026</text>
+<text top="1130" left="116" width="329" height="34" font="4"><b>Soft Skills &amp; Competencies</b></text>
+<text top="1196" left="116" width="6" height="22" font="6"><b>•</b></text>
+<text top="1195" left="133" width="391" height="23" font="7">Independent troubleshooting and debugging across</text>
+<text top="1222" left="133" width="192" height="23" font="7">frontend and CMS stacks</text>
+<text top="1257" left="116" width="6" height="22" font="6"><b>•</b></text>
+<text top="1256" left="133" width="350" height="23" font="7">Strong problem-solving with attention to detail</text>
+<text top="1289" left="116" width="6" height="22" font="6"><b>•</b></text>
+<text top="1288" left="133" width="440" height="23" font="7">Experience implementing Figma designs and working with</text>
+<text top="1315" left="133" width="103" height="23" font="7">design teams</text>
+<text top="1196" left="603" width="6" height="22" font="6"><b>•</b></text>
+<text top="1195" left="620" width="402" height="23" font="7">Website performance, accessibility, and SEO-focused</text>
+<text top="1222" left="620" width="172" height="23" font="7">development practices</text>
+<text top="1257" left="603" width="6" height="22" font="6"><b>•</b></text>
+<text top="1256" left="620" width="364" height="23" font="7">Efficient workflows using AI-assisted tools while</text>
+<text top="1283" left="620" width="186" height="23" font="7">maintaining code quality</text>
+</page>
+</pdf2xml>
