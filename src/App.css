@@ -252,33 +252,50 @@
   gap: 46px 28px;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff0c;
+  border-radius: 4px;
+  background: #171914;
+  overflow: hidden;
+}
+
 .project-card--agriculture {
   grid-column: 1 / -1;
+  --project-surface: #20231d;
+}
+
+.project-card--sms,
+.project-card--commerce {
+  --project-surface: #20211f;
 }
 
 .project-preview {
   position: relative;
-  height: 260px;
+  height: 340px;
   overflow: hidden;
-  display: grid;
-  place-items: center;
-  border: 1px solid #ffffff0c;
-  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid #ffffff0c;
+  border-radius: 4px 4px 0 0;
 }
 
 .project-card--agriculture .project-preview {
-  height: 348px;
+  height: 380px;
 }
 
 .preview--agriculture {
-  background-color: #20231d;
+  background-color: var(--project-surface);
   background-image: radial-gradient(#a8c36312 0.7px, transparent 0.7px);
   background-size: 6px 6px;
 }
 
 .preview--sms,
 .preview--commerce {
-  background: #20211f;
+  background: var(--project-surface);
 }
 
 .preview-number {
@@ -297,6 +314,7 @@
 .project-artwork {
   width: 82%;
   max-width: 760px;
+  margin-top: auto;
   box-shadow: 0 25px 70px #08090750;
   transition: transform 400ms cubic-bezier(.2,.75,.3,1);
 }
@@ -379,7 +397,9 @@
 }
 
 .project-info {
-  padding: 19px 1px 0;
+  padding: 18px 18px 16px;
+  background: var(--project-surface);
+  border-top: 1px solid #1f221d;
 }
 
 .project-heading {
@@ -404,16 +424,18 @@
   letter-spacing: -0.055em;
 }
 
-.project-info > p {
-  max-width: 500px;
-  margin: 10px 0 14px;
+.preview-description {
+  align-self: flex-start;
+  max-width: min(500px, 68%);
+  margin: 23px 0 12px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1.7;
 }
 
 .tag-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   margin: 0;
   padding: 0;
@@ -713,11 +735,11 @@
   }
 
   .project-preview {
-    height: 220px;
+    height: 340px;
   }
 
   .project-card--agriculture .project-preview {
-    height: 315px;
+    height: 360px;
   }
 
   .career-grid {
@@ -849,11 +871,16 @@
 
   .project-preview,
   .project-card--agriculture .project-preview {
-    height: 252px;
+    height: 340px;
   }
 
   .project-artwork {
     width: 88%;
+  }
+
+  .preview-description {
+    max-width: 100%;
+    font-size: 9px;
   }
 
   .artwork-window {

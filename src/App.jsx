@@ -97,8 +97,9 @@ function ProjectCard({ project }) {
   return (
     <article className={`project-card project-card--${project.visual}`}>
       <div className={`project-preview preview--${project.visual}`}>
-        <ProjectArtwork project={project} />
         <span className="preview-number">{project.number} / 03</span>
+        <p className="preview-description">{project.description}</p>
+        <ProjectArtwork project={project} />
       </div>
       <div className="project-info">
         <div className="project-heading">
@@ -107,7 +108,6 @@ function ProjectCard({ project }) {
             <h3>{project.name}</h3>
           </div>
         </div>
-        <p>{project.description}</p>
         <ul className="tag-list" aria-label="Technologies">
           {project.tags.map((tag) => <li key={tag}>{tag}</li>)}
         </ul>
@@ -179,7 +179,7 @@ function App() {
             </div>
             <p className="career-organization">Trail My Car (TMC)</p>
             <ul className="experience-list">
-              <li>Built a local Flask dashboard with Python and Playwright to automate vehicle, tracker, and payment-record checks across two web portals.</li>
+              <li>Built a local Flask dashboard with Python and Playwright to automate vehicle, tracker, and payment record checks across two web portals.</li>
               <li>Added SQLite record storage, Excel imports, and resume/retry support to streamline daily lookups.</li>
               <li>Deployed and maintained Windows software, and troubleshot staff workstations, applications, printers, and network issues.</li>
             </ul>
