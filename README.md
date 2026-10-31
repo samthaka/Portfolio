@@ -1,4 +1,4 @@
-# Samuel Kirangi Thaka — Portfolio
+# Samuel Thaka - Portfolio
 
 A React portfolio built with Vite, featuring software projects, IT support experience, education, and technical skills.
 

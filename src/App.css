@@ -252,7 +252,7 @@
   gap: 46px 28px;
 }
 
-.project-card--identity {
+.project-card--agriculture {
   grid-column: 1 / -1;
 }
 
@@ -266,21 +266,18 @@
   border-radius: 4px;
 }
 
-.project-card--identity .project-preview {
+.project-card--agriculture .project-preview {
   height: 348px;
 }
 
-.preview--identity {
+.preview--agriculture {
   background-color: #20231d;
   background-image: radial-gradient(#a8c36312 0.7px, transparent 0.7px);
   background-size: 6px 6px;
 }
 
-.preview--agriculture {
-  background: #20231d;
-}
-
-.preview--productivity {
+.preview--sms,
+.preview--commerce {
   background: #20211f;
 }
 
@@ -373,8 +370,12 @@
   color: #a7c799;
 }
 
-.project-artwork--productivity .artwork-step i {
+.project-artwork--sms .artwork-step i {
   color: #c3a8ed;
+}
+
+.project-artwork--commerce .artwork-step i {
+  color: #a9c5e8;
 }
 
 .project-info {
@@ -502,6 +503,41 @@
   margin: 18px 0 0;
   color: var(--muted);
   font-size: 10px;
+}
+
+.resume-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 38px 40px;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  background: #1b1c19;
+}
+
+.resume-section h2 {
+  margin: 10px 0 0;
+  font: 500 clamp(23px, 3vw, 32px)/1.2 'Manrope', sans-serif;
+  letter-spacing: -0.05em;
+}
+
+.resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 15px;
+  border: 1px solid #525b3b;
+  border-radius: 3px;
+  color: var(--lime);
+  font-size: 11px;
+  white-space: nowrap;
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.resume-link:hover {
+  border-color: var(--lime);
+  background: #d4fa6210;
 }
 
 .skills-section {
@@ -680,7 +716,7 @@
     height: 220px;
   }
 
-  .project-card--identity .project-preview {
+  .project-card--agriculture .project-preview {
     height: 315px;
   }
 
@@ -747,6 +783,10 @@
     display: none;
   }
 
+  .main-nav a[href='#resume'] {
+    display: none;
+  }
+
   .hero {
     min-height: 500px;
   }
@@ -803,12 +843,12 @@
     gap: 34px;
   }
 
-  .project-card--identity {
+  .project-card--agriculture {
     grid-column: auto;
   }
 
   .project-preview,
-  .project-card--identity .project-preview {
+  .project-card--agriculture .project-preview {
     height: 252px;
   }
 
@@ -834,6 +874,12 @@
 
   .skills-section {
     padding-bottom: 68px;
+  }
+
+  .resume-section {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px 20px;
   }
 
   .career-card {
