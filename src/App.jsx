@@ -138,10 +138,11 @@ function App() {
           <div className="eyebrow">FULL-STACK DEVELOPMENT <span className="eyebrow-divider">/</span> IT SUPPORT</div>
           <h2>Building useful<br />digital <span className="hero-highlight">tools<span className="hero-period">.</span></span></h2>
           <div className="hero-bottom">
-            <p>I&apos;m Samuel Thaka, a versatile software developer and DevOps engineer focused on practical software and reliable technology.</p>
-            <a href="#work" className="text-link">Explore selected projects <ArrowIcon /></a>
+            <p>I&apos;m Samuel Thaka, a versatile fullstack software developer and DevOps engineer focused on practical software solutions and reliable technology.</p>
+            <a href="#work" className="text-link">Explore my work <ArrowIcon /></a>
           </div>
         </div>
+        <img className="hero-portrait" src={`${import.meta.env.BASE_URL}image-3.jpg`} alt="Samuel Thaka" />
         <div className="hero-side-note" aria-hidden="true">
           <span>SOFTWARE</span><i /><span>DATA</span><i /><span>DEVOPS</span>
         </div>

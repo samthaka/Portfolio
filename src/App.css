@@ -96,13 +96,27 @@
 .hero {
   position: relative;
   min-height: 586px;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  gap: clamp(32px, 7vw, 88px);
   align-items: center;
   border-bottom: 1px solid #ffffff16;
 }
 
 .hero-copy {
   padding: 40px 0 55px;
+}
+
+.hero-portrait {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 0.88;
+  justify-self: end;
+  border: 1px solid #ffffff20;
+  border-radius: 3px;
+  object-fit: cover;
+  object-position: center 22%;
 }
 
 .eyebrow,
@@ -181,7 +195,7 @@
 
 .hero-side-note {
   position: absolute;
-  right: 0;
+  right: -20px;
   top: 50%;
   display: flex;
   align-items: center;
@@ -703,10 +717,16 @@
 
   .hero {
     min-height: 520px;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+    gap: 28px;
   }
 
   .hero h1 {
     font-size: clamp(55px, 11vw, 82px);
+  }
+
+  .hero-portrait {
+    max-width: 280px;
   }
 
   .hero-bottom {
@@ -717,7 +737,7 @@
   }
 
   .hero-side-note {
-    right: -1px;
+    right: -20px;
     font-size: 7px;
   }
 
@@ -810,7 +830,15 @@
   }
 
   .hero {
-    min-height: 500px;
+    min-height: auto;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-bottom: 72px;
+  }
+
+  .hero-portrait {
+    width: min(100%, 320px);
+    margin: 0 auto;
   }
 
   .hero h1 {
@@ -834,7 +862,7 @@
   }
 
   .hero-side-note {
-    right: 0;
+    right: -12px;
     font-size: 6px;
     gap: 7px;
   }
