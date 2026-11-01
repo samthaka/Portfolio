@@ -125,11 +125,16 @@ function App() {
           <span className="wordmark-name">Samuel Thaka</span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
+          <a
+            href="https://drive.google.com/file/d/1BVKFB8vKuCqqI4WU3_UpJxi32_P5mXwi/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer">
+            Resume
+          <ArrowIcon diagonal /></a>
           <a href="#work">Work <span>03</span></a>
           <a href="#experience">Experience</a>
           <a href="#about">About</a>
-          <a href="#resume">Resume</a>
-          <a className="nav-contact" href="mailto:samuelthaka9@gmail.com">Contact <ArrowIcon diagonal /></a>
+          <a className="nav-contact" href="mailto:samuelthaka9@gmail.com">Get in touch <ArrowIcon diagonal /></a>
         </nav>
       </header>
 
@@ -215,21 +220,6 @@ function App() {
             <p>PostgreSQL, MySQL, Git, GitHub, Docker, Postman, API integration</p>
           </div>
         </div>
-      </section>
-
-      <section className="resume-section page-wrap" id="resume">
-        <div>
-          <span className="section-kicker">MORE ABOUT MY EXPERIENCE</span>
-          <h2>Want the full Resume<span className="heading-period">?</span></h2>
-        </div>
-        <a
-          className="resume-link"
-          href="https://drive.google.com/file/d/1BVKFB8vKuCqqI4WU3_UpJxi32_P5mXwi/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Resume <ArrowIcon diagonal />
-        </a>
       </section>
 
       <section className="about-section page-wrap" id="about">

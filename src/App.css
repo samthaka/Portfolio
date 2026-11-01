@@ -47,7 +47,7 @@
 }
 
 .wordmark-name {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.2px;
 }
@@ -55,7 +55,7 @@
 .main-nav {
   gap: 36px;
   color: #b9bab2;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .main-nav a {
@@ -70,7 +70,7 @@
 
 .main-nav a > span {
   color: var(--faint);
-  font: 9px var(--mono);
+  font: 10px var(--mono);
 }
 
 .main-nav .nav-contact {
@@ -134,7 +134,7 @@
   align-items: center;
   gap: 9px;
   color: #a9aaa2;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.1em;
 }
 
@@ -142,11 +142,11 @@
   color: #62645c;
 }
 
-.hero h1 {
+.hero h2 {
   margin: 26px 0 28px;
   color: var(--text);
   font-family: 'Manrope', sans-serif;
-  font-size: clamp(58px, 8.6vw, 112px);
+  font-size: clamp(48px, 5.4vw, 72px);
   line-height: 0.98;
   font-weight: 600;
   letter-spacing: -0.085em;
@@ -172,7 +172,7 @@
 .hero-bottom p {
   max-width: 345px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -184,7 +184,7 @@
   border-bottom: 1px solid #606252;
   color: var(--text);
   white-space: nowrap;
-  font-size: 11px;
+  font-size: 14px;
   transition: border-color 180ms ease, color 180ms ease;
 }
 
@@ -201,7 +201,7 @@
   align-items: center;
   gap: 11px;
   color: #777970;
-  font-size: 8px;
+  font-size: 10px;
   writing-mode: vertical-rl;
   transform: translateY(-50%);
 }
@@ -216,7 +216,7 @@
   right: 0;
   bottom: 26px;
   color: #73756d;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.08em;
 }
 
@@ -235,7 +235,7 @@
 .section-kicker {
   display: block;
   color: #a3a59b;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.1em;
 }
 
@@ -244,10 +244,11 @@
   padding-left: 5px;
 }
 
-.section-heading h2 {
+.section-heading h2,
+.section-heading h3 {
   margin: 15px 0 0;
   font-family: 'Manrope', sans-serif;
-  font-size: clamp(37px, 5vw, 54px);
+  font-size: clamp(38px, 5vw, 56px);
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: -0.07em;
@@ -256,7 +257,7 @@
 .section-heading > p {
   margin-bottom: 4px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -317,7 +318,7 @@
   z-index: 2;
   top: 17px;
   color: #d7d9cc;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.1em;
 }
 
@@ -352,7 +353,7 @@
   padding: 13px 17px;
   border-bottom: 1px solid #2e312b;
   color: #9b9f91;
-  font: 8px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: 0.08em;
 }
 
@@ -362,7 +363,7 @@
 
 .artwork-overline {
   color: #a9b188;
-  font: 8px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: 0.1em;
 }
 
@@ -389,12 +390,12 @@
   border: 1px solid #35392f;
   border-radius: 3px;
   color: #c9ccbf;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .artwork-step i {
   color: var(--lime);
-  font: 8px var(--mono);
+  font: 10px var(--mono);
   font-style: normal;
 }
 
@@ -425,14 +426,14 @@
 
 .project-type {
   color: #a3a59b;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.08em;
 }
 
 .project-heading h3 {
   margin: 5px 0 0;
   font-family: 'Manrope', sans-serif;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.15;
   font-weight: 500;
   letter-spacing: -0.055em;
@@ -443,7 +444,7 @@
   max-width: min(500px, 68%);
   margin: 23px 0 12px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.7;
 }
 
@@ -461,7 +462,7 @@
   border: 1px solid #353731;
   border-radius: 2px;
   color: #adafa4;
-  font: 8px var(--mono);
+  font: 10px var(--mono);
 }
 
 .career-section,
@@ -494,21 +495,21 @@
 .skill-group h3 {
   margin: 8px 0 0;
   color: var(--text);
-  font: 500 20px/1.3 'Manrope', sans-serif;
+  font: 500 22px/1.3 'Manrope', sans-serif;
   letter-spacing: -0.04em;
 }
 
 .career-location {
   flex: 0 0 auto;
   color: #999b91;
-  font: 8px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: 0.06em;
 }
 
 .career-organization {
   margin: 9px 0 0;
   color: var(--lime);
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .experience-list {
@@ -517,7 +518,7 @@
   margin: 21px 0 0;
   padding-left: 17px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -538,42 +539,7 @@
 .education-note {
   margin: 18px 0 0;
   color: var(--muted);
-  font-size: 10px;
-}
-
-.resume-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 38px 40px;
-  border: 1px solid var(--panel-border);
-  border-radius: 4px;
-  background: #1b1c19;
-}
-
-.resume-section h2 {
-  margin: 10px 0 0;
-  font: 500 clamp(23px, 3vw, 32px)/1.2 'Manrope', sans-serif;
-  letter-spacing: -0.05em;
-}
-
-.resume-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  padding: 12px 15px;
-  border: 1px solid #525b3b;
-  border-radius: 3px;
-  color: var(--lime);
-  font-size: 11px;
-  white-space: nowrap;
-  transition: background-color 180ms ease, border-color 180ms ease;
-}
-
-.resume-link:hover {
-  border-color: var(--lime);
-  background: #d4fa6210;
+  font-size: 13px;
 }
 
 .skills-section {
@@ -599,13 +565,13 @@
 
 .skill-group h3 {
   margin-top: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .skill-group p {
   margin: 10px 0 0;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.75;
 }
 
@@ -634,7 +600,7 @@
   margin: -8px 0 30px;
   color: #e2e3da;
   font-family: 'Manrope', sans-serif;
-  font-size: clamp(23px, 3vw, 33px);
+  font-size: clamp(25px, 3.2vw, 36px);
   line-height: 1.4;
   font-weight: 400;
   letter-spacing: -0.045em;
@@ -650,7 +616,7 @@
 .about-bottom > p {
   max-width: 240px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -659,7 +625,7 @@
   align-items: center;
   gap: 12px;
   color: #a6a89f;
-  font-size: 10px;
+  font-size: 14px;
   white-space: nowrap;
 }
 
@@ -676,7 +642,7 @@
   justify-content: space-between;
   align-items: center;
   color: #85877e;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.05em;
 }
 
@@ -708,7 +674,7 @@
   }
 
   .main-nav {
-    gap: 20px;
+    gap: 12px;
   }
 
   .main-nav .nav-contact {
@@ -721,8 +687,8 @@
     gap: 28px;
   }
 
-  .hero h1 {
-    font-size: clamp(55px, 11vw, 82px);
+  .hero h2 {
+    font-size: clamp(48px, 8vw, 64px);
   }
 
   .hero-portrait {
@@ -738,11 +704,11 @@
 
   .hero-side-note {
     right: -20px;
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .hero-index {
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .work-section {
@@ -777,7 +743,7 @@
   .artwork-step {
     gap: 5px;
     padding: 8px 6px;
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .about-section {
@@ -801,6 +767,14 @@
     width: calc(100% - 40px);
   }
 
+  .site-header {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-block: 14px;
+  }
+
   .wordmark {
     gap: 8px;
   }
@@ -812,20 +786,18 @@
   }
 
   .wordmark-name {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .main-nav {
-    gap: 10px;
-    font-size: 9px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12px;
   }
 
   .main-nav a > span,
   .main-nav .nav-contact .arrow-icon {
-    display: none;
-  }
-
-  .main-nav a[href='#resume'] {
     display: none;
   }
 
@@ -841,15 +813,15 @@
     margin: 0 auto;
   }
 
-  .hero h1 {
+  .hero h2 {
     margin-top: 23px;
-    font-size: clamp(48px, 12.2vw, 66px);
+    font-size: clamp(46px, 12.2vw, 58px);
     letter-spacing: -0.09em;
   }
 
   .eyebrow {
     gap: 7px;
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .hero-bottom {
@@ -858,18 +830,18 @@
 
   .hero-bottom p {
     max-width: 300px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .hero-side-note {
     right: -12px;
-    font-size: 6px;
+    font-size: 10px;
     gap: 7px;
   }
 
   .hero-index {
     right: 0;
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .section-heading {
@@ -879,13 +851,14 @@
     margin-bottom: 25px;
   }
 
-  .section-heading h2 {
+  .section-heading h2,
+  .section-heading h3 {
     margin-top: 11px;
     font-size: 42px;
   }
 
   .section-heading > p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .project-grid {
@@ -899,7 +872,7 @@
 
   .project-preview,
   .project-card--agriculture .project-preview {
-    height: 340px;
+    height: 420px;
   }
 
   .project-artwork {
@@ -908,7 +881,7 @@
 
   .preview-description {
     max-width: 100%;
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .artwork-window {
@@ -931,12 +904,6 @@
     padding-bottom: 68px;
   }
 
-  .resume-section {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 24px 20px;
-  }
-
   .career-card {
     padding: 19px;
   }
@@ -956,7 +923,7 @@
   }
 
   .about-copy h2 {
-    font-size: 24px;
+    font-size: 27px;
   }
 
   .about-bottom {
@@ -969,6 +936,12 @@
     min-height: 76px;
     flex-wrap: wrap;
     gap: 8px 14px;
-    font-size: 7px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .main-nav {
+    font-size: 11px;
   }
 }
